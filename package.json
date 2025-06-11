@@ -1,0 +1,31 @@
+{
+  "name": "create-mern",
+  "version": "1.0.0",
+  "description": "A scaffolder for MERN stack projects with Vite + React frontend and Express + MongoDB backend",
+  "type": "module",
+  "bin": {
+    "create-mern": "index.js"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "vite",
+    "scaffolder",
+    "template"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "ora": "^8.2.0"
+  }
+}
