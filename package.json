@@ -1,6 +1,6 @@
 {
-  "name": "create-mern",
-  "version": "1.0.0",
+  "name": "@devsuite/create-mern",
+  "version": "1.0.1",
   "description": "A scaffolder for MERN stack projects with Vite + React frontend and Express + MongoDB backend",
   "type": "module",
   "bin": {
@@ -19,7 +19,7 @@
     "scaffolder",
     "template"
   ],
-  "author": "Your Name",
+  "author": "MD TAUFIK KHAN",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
