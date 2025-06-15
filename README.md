@@ -14,15 +14,17 @@ A powerful scaffolder for MERN stack projects with Vite + React frontend and Exp
 ## Usage
 
 ```npm
-npm create mern
-```
-or,
-```pnpm
-pnpm create mern
+npm create @devsuite/mern@latest
 ```
 
+or,
+
+```pnpm
+pnpm create @devsuite/mern
+```
 
 Follow the interactive prompts to:
+
 1. Enter your project name
 2. Choose project structure (Full MERN, Frontend only, or Backend only)
 3. Select package manager (npm or pnpm)
@@ -30,10 +32,12 @@ Follow the interactive prompts to:
 ## Project Structure Options
 
 ### 1. Full MERN Stack
+
 Creates a complete MERN application with separate frontend and backend directories:
 
 ```
 my-project/
+├── .gitignore         # Git ignore file
 ├── frontend/          # React + Vite application
 ├── backend/           # Express + MongoDB API
 ├── package.json       # Root package.json with scripts
@@ -41,6 +45,7 @@ my-project/
 ```
 
 ### 2. Frontend Only
+
 Creates a React + Vite application:
 
 ```
@@ -52,6 +57,7 @@ my-project/
 ```
 
 ### 3. Backend Only
+
 Creates an Express + MongoDB API:
 
 ```
@@ -68,20 +74,18 @@ my-project/
 ## Generated Project Features
 
 ### Frontend (React + Vite)
+
 - ⚡ Vite for fast development and building
 - 🔄 React Router for navigation
 - 📡 Axios for HTTP requests
 - 🎨 Modern React setup with JSX
 
 ### Backend (Express + MongoDB)
+
 - 🌐 Express.js server with CORS enabled
 - 🗄️ MongoDB connection with Mongoose
 - 🔐 Environment variable configuration
 - 🔄 Nodemon for development hot reload
-- 📍 Pre-configured API endpoints:
-  - `GET /api/health` - Health check
-  - `GET /api/welcome` - Welcome message
-  - `GET /api/users` - Sample users endpoint
 
 ## Available Scripts (Full Stack)
 

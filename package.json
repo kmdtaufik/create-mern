@@ -1,6 +1,6 @@
 {
   "name": "@devsuite/create-mern",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A scaffolder for MERN stack projects with Vite + React frontend and Express + MongoDB backend",
   "type": "module",
   "bin": {
